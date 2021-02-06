@@ -1,0 +1,910 @@
+{
+    "passages": [
+      {
+        "text": "You are jolted awake from a strange yet extremely realistic dream, in the garden to the sound of your step-mother yelling for you in a very angry and hostile tone. You see 3 possible options of what to do. Which one do you wish to do?\n\n[[Run to the garden wall->Garden Wall]]\n[[Run to the tree->Tree]]\n[[Stay->Stay]]",
+        "links": [
+          {
+            "name": "Run to the garden wall",
+            "link": "Garden Wall",
+            "pid": "2"
+          },
+          {
+            "name": "Run to the tree",
+            "link": "Tree",
+            "pid": "3"
+          },
+          {
+            "name": "Stay",
+            "link": "Stay",
+            "pid": "4"
+          }
+        ],
+        "name": "The Choice",
+        "pid": "1",
+        "position": {
+          "x": "850",
+          "y": "550"
+        }
+      },
+      {
+        "text": "You ran over to the garden wall in the hopes of climbing over it to escape your step-mother. However, it is much taller than you thought and can not be climbed without assistance. But, you still have time to change your course of action. What will you do?\n\n[[Go to the tree->Tree]]\n[[Stay->Stay]] ",
+        "links": [
+          {
+            "name": "Go to the tree",
+            "link": "Tree",
+            "pid": "3"
+          },
+          {
+            "name": "Stay",
+            "link": "Stay",
+            "pid": "4"
+          }
+        ],
+        "name": "Garden Wall",
+        "pid": "2",
+        "position": {
+          "x": "710",
+          "y": "698"
+        }
+      },
+      {
+        "text": "As you made your way to the tree, you saw the hole begin to glow and seemingly call for you. You felt yourself being pulled towards it, but you still had the strength to make a final choice. What will you do?\n\n[[Stay->Stay]]\n[[Jump into the tree->Rabbit Hole]]\n[[Run to the garden wall->Garden Wall]]",
+        "links": [
+          {
+            "name": "Stay",
+            "link": "Stay",
+            "pid": "4"
+          },
+          {
+            "name": "Jump into the tree",
+            "link": "Rabbit Hole",
+            "pid": "5"
+          },
+          {
+            "name": "Run to the garden wall",
+            "link": "Garden Wall",
+            "pid": "2"
+          }
+        ],
+        "name": "Tree",
+        "pid": "3",
+        "position": {
+          "x": "860",
+          "y": "698"
+        }
+      },
+      {
+        "text": "You made the decision to stand up to your step-mother as she has put you through so much pain and suffering. She comes to you and is more terrifying then you expected. She is instilling fear into you in an attempt to make you submit to her. What do you do?\n\n[[Stand up to her->Confront]] \n[[Submit to her->Cooperate]] ",
+        "links": [
+          {
+            "name": "Stand up to her",
+            "link": "Confront",
+            "pid": "15"
+          },
+          {
+            "name": "Submit to her",
+            "link": "Cooperate",
+            "pid": "14"
+          }
+        ],
+        "name": "Stay",
+        "pid": "4",
+        "position": {
+          "x": "1010",
+          "y": "698"
+        }
+      },
+      {
+        "text": "You jumped into the tree and started to fall. As you fell, you saw very strange things. You saw floating chairs and clocks. As well as teacups and playing cards. You then realized what was going on. You had seen the movies dozens of times of this place. You even read some of the books depicting this place.\n\n[[Off to Wonderland->Wonderland]]",
+        "links": [
+          {
+            "name": "Off to Wonderland",
+            "link": "Wonderland",
+            "pid": "6"
+          }
+        ],
+        "name": "Rabbit Hole",
+        "pid": "5",
+        "position": {
+          "x": "935",
+          "y": "848"
+        }
+      },
+      {
+        "text": "You finally reached the bottom of your fall and happened to land on a mountain of pillows that cushioned you. You made your way out of the pillow mountain and was excited to see the world, the Mad Hatter, the Cheshire Cat, and all of the other characters from the movies and books. But as you looked out into the world, it was not at all what you were expecting.\n\n[[Walk to a table->Table]]\n[[Walk over to the cliff->Cliff]]",
+        "links": [
+          {
+            "name": "Walk to a table",
+            "link": "Table",
+            "pid": "7"
+          },
+          {
+            "name": "Walk over to the cliff",
+            "link": "Cliff",
+            "pid": "8"
+          }
+        ],
+        "name": "Wonderland",
+        "pid": "6",
+        "position": {
+          "x": "935",
+          "y": "998"
+        }
+      },
+      {
+        "text": "You made your way slowly towards the table surrounded by strange looking people, only to find out as you got closer that they were people wearing suits of armor with a vast arrangement of weapons to their sides. They notice you coming, so it is too late to back out now.\n\n[[Continue on->Plan]]",
+        "links": [
+          {
+            "name": "Continue on",
+            "link": "Plan",
+            "pid": "9"
+          }
+        ],
+        "name": "Table",
+        "pid": "7",
+        "position": {
+          "x": "860",
+          "y": "1148"
+        }
+      },
+      {
+        "text": "You made your way to the edge of the cliff in the hopes of getting a better view of the world. However, after standing there and looking out, you felt a slight push to your back from an unknown entity and you started to fall towards the ground. It was a decent sized cliff, which only meant that you suffered longer while knowing what came next. But perhaps the unexpected was going to happen...\n\n[[How unexpected?->The Choice]]",
+        "links": [
+          {
+            "name": "How unexpected?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Cliff",
+        "pid": "8",
+        "position": {
+          "x": "1010",
+          "y": "1148"
+        }
+      },
+      {
+        "text": "You learn while standing at the table and listening to the knights that you are in a world of horror and endless wars. But as the conversation goes on, the strangers start to talk about you. Saying stuff along the lines of you being \"the chosen one\".... whatever that means. They tell you that they were in the middle of trying to come up with a startegy when you appeared, and since have changed their plan to include you, their secret weapon. They tell you that you need to go get some gear before you can go off to battle. Where do you go first?\n\n[[The archery range->Archery]]\n[[The armory->Armory]]\n[[The weaponsmith->Weaponsmith]]",
+        "links": [
+          {
+            "name": "The archery range",
+            "link": "Archery",
+            "pid": "10"
+          },
+          {
+            "name": "The armory",
+            "link": "Armory",
+            "pid": "11"
+          },
+          {
+            "name": "The weaponsmith",
+            "link": "Weaponsmith",
+            "pid": "12"
+          }
+        ],
+        "name": "Plan",
+        "pid": "9",
+        "position": {
+          "x": "860",
+          "y": "1298"
+        }
+      },
+      {
+        "text": "You were on you way to the archery range to get a bow when you saw a giant ball of fire fly through the sky towards the archery range. You stopped moving as you watch the ball of fire crash into the archery range, destroying everything. It seems like you are going to have to fight in the war without a bow.\n\n[[Head towards the armory->Armory]]\n[[Head to the weaponsmith->Weaponsmith]]\n[[Head back to the table->Go Time]]\n[[Go to the archery range anyways->Burn]]",
+        "links": [
+          {
+            "name": "Head towards the armory",
+            "link": "Armory",
+            "pid": "11"
+          },
+          {
+            "name": "Head to the weaponsmith",
+            "link": "Weaponsmith",
+            "pid": "12"
+          },
+          {
+            "name": "Head back to the table",
+            "link": "Go Time",
+            "pid": "13"
+          },
+          {
+            "name": "Go to the archery range anyways",
+            "link": "Burn",
+            "pid": "17"
+          }
+        ],
+        "name": "Archery",
+        "pid": "10",
+        "position": {
+          "x": "710",
+          "y": "1448"
+        }
+      },
+      {
+        "text": "You made your way to the armory where you were fitted for armor. It was a bit bulky for you, but it was thick enough to protect you, and that's what matters the most.\n\n[[Head to the weaponsmith->Weaponsmith]]\n[[Head to the archery range->Archery]]\n[[Head back to the table->Go Time]] ",
+        "links": [
+          {
+            "name": "Head to the weaponsmith",
+            "link": "Weaponsmith",
+            "pid": "12"
+          },
+          {
+            "name": "Head to the archery range",
+            "link": "Archery",
+            "pid": "10"
+          },
+          {
+            "name": "Head back to the table",
+            "link": "Go Time",
+            "pid": "13"
+          }
+        ],
+        "name": "Armory",
+        "pid": "11",
+        "position": {
+          "x": "860",
+          "y": "1448"
+        }
+      },
+      {
+        "text": "You made your way to the weaponsmith to get a few weapons. He handed you a small round shield that is able to deflect arrows and maybe block a few hits from a sword. He then handed you a sword made of a dark metal that you have never seen before, as well as a small knife of the same metal.\n\n[[Head to the armory->Armory]]\n[[Head to the archery range->Archery]] \n[[Head back to the table->Go Time]] ",
+        "links": [
+          {
+            "name": "Head to the armory",
+            "link": "Armory",
+            "pid": "11"
+          },
+          {
+            "name": "Head to the archery range",
+            "link": "Archery",
+            "pid": "10"
+          },
+          {
+            "name": "Head back to the table",
+            "link": "Go Time",
+            "pid": "13"
+          }
+        ],
+        "name": "Weaponsmith",
+        "pid": "12",
+        "position": {
+          "x": "1010",
+          "y": "1448"
+        }
+      },
+      {
+        "text": "You made your way back to the table to find out more about your role in the plan. But it seems like you are not at all going to like it. It seems as though there are 5 enemies you are going to need to fight. The 5th and final enemy is the \"Red Queen\" (nicknamed that due to all the blood she is covered in after killing her enemies). The knights of the table instruct you to go after the first 4 enemies in a very specific order then to return to the table. Who knows what could happen to you if you go to them in the wrong order? The order to go in is as follows: 1) The Katze. 2) The Twins. 3) The Red Rabbit. 4) The Executioner. Despite the specific order, they still allow you to choose your own path. So where will you go first?\n\n[[The Red Rabbit->Fake Rabbit]]\n[[The Executioner->Fake Executioner]]\n[[The Katze->Katze]]\n[[The Twins->Fake Twins]]\n",
+        "links": [
+          {
+            "name": "The Red Rabbit",
+            "link": "Fake Rabbit",
+            "pid": "20"
+          },
+          {
+            "name": "The Executioner",
+            "link": "Fake Executioner",
+            "pid": "21"
+          },
+          {
+            "name": "The Katze",
+            "link": "Katze",
+            "pid": "18"
+          },
+          {
+            "name": "The Twins",
+            "link": "Fake Twins",
+            "pid": "19"
+          }
+        ],
+        "name": "Go Time",
+        "pid": "13",
+        "position": {
+          "x": "861",
+          "y": "1598"
+        }
+      },
+      {
+        "text": "You realized that your step-mother's wrath is too great for you and that you didn't have the will to go against her. Only time will tell what kind of misfortune will fall upon you next.\n\n[[Is this the end?->Coward]]",
+        "links": [
+          {
+            "name": "Is this the end?",
+            "link": "Coward",
+            "pid": "16"
+          }
+        ],
+        "name": "Cooperate",
+        "pid": "14",
+        "position": {
+          "x": "1200",
+          "y": "600"
+        }
+      },
+      {
+        "text": "You decided to stand up for yourself against you step-mother and her tyranny. Unfortunatly, she did not appreciate this and hit you hard enough to knock you out. Perhaps not the best outcome, but is that what truly happened?\n\n[[What actually happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What actually happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Confront",
+        "pid": "15",
+        "position": {
+          "x": "1200",
+          "y": "800"
+        }
+      },
+      {
+        "text": "Congratulations! You achieved the \"Coward\" ending. Feel free to try again or accept this ending.\n\n[[Try again->Intro]] ",
+        "links": [
+          {
+            "name": "Try again",
+            "link": "Intro",
+            "pid": "34"
+          }
+        ],
+        "name": "Coward",
+        "pid": "16",
+        "position": {
+          "x": "1402",
+          "y": "599"
+        }
+      },
+      {
+        "text": "You chose to run towards the range anyways to see if you can find anything left untouched by the flames. However the ball of fire lit a barrel on fire when it fell. That barrel then exploded as soon as you got near it, killing you in the process. But did it actually kill you?\n\n[[Did I survive?->The Choice]] ",
+        "links": [
+          {
+            "name": "Did I survive?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Burn",
+        "pid": "17",
+        "position": {
+          "x": "602",
+          "y": "1599"
+        }
+      },
+      {
+        "text": "As you made your way to (what the soldiers were calling) The Katze, you realize that it was actually the Cheshire Cat from the movies, just an evil version of it. You are also in luck because it is asleep on a branch. This is good because the ground is covered in dead bodies that yours may have become a part of it the Katze was awake. Your task from the soldiers was to kill the Katze, cut off its tail, then later bring it back to the table. So how would you like to face this beast?\n\n[[Wake it up and attack it->Katze Loss]]\n[[Sneak up on it->Katze win]]",
+        "links": [
+          {
+            "name": "Wake it up and attack it",
+            "link": "Katze Loss",
+            "pid": "22"
+          },
+          {
+            "name": "Sneak up on it",
+            "link": "Katze win",
+            "pid": "23"
+          }
+        ],
+        "name": "Katze",
+        "pid": "18",
+        "position": {
+          "x": "501",
+          "y": "1801"
+        }
+      },
+      {
+        "text": "You choose to make your way to the Twins. There was just a slight problem with that. You came up to them and interrupted their tea-time, which was apparently very important to them because they immediatly got up and both gave you a hug at the same time. This was an issue because they were squeezing you too hard and everything eventually went dark after a few seconds.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Fake Twins",
+        "pid": "19",
+        "position": {
+          "x": "701",
+          "y": "1801"
+        }
+      },
+      {
+        "text": "You make your way to where the red rabbit is in the hopes of completing the task assigned to you by the knights. But now was not the time to have come to do that task. As you approach, you notice the Red Rabbit is on what seems to be a rampage and is attacking anything in sight with a giant clock on a chain that it swings around. You unfortunatly came directly into the Red Rabbits sight, and everything went dark a few seconds later.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Fake Rabbit",
+        "pid": "20",
+        "position": {
+          "x": "901",
+          "y": "1800"
+        }
+      },
+      {
+        "text": "You make your way to the Executioner's house, only to learn that is actually just the Mad Hatter, except crazier... You came up to him during one of his most busiest times of the day, the time where he sticks severed heads onto poles outside of his house. He happens to have one pole left without a head, and a person who just walked up to him with one still attached to a body. You try to get away, but unfortunatly he caught up. He drags you to a large stone covered in blood and the next thing you know, everything is black.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Fake Executioner",
+        "pid": "21",
+        "position": {
+          "x": "1100",
+          "y": "1798"
+        }
+      },
+      {
+        "text": "You choose to wake it up and try to face it one on one. After you wake it up, you realize why that was a bad idea. As soon as it saw you, it turned invisible and a few seconds later, everything went black.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Katze Loss",
+        "pid": "22",
+        "position": {
+          "x": "426",
+          "y": "1951"
+        }
+      },
+      {
+        "text": "You decided to sneak up onto the Katze, but it may be a bit harder then you think since it it up on a tree branch. You try it anyways and surprisingly enough, you were able to get behind it without waking it up. You grab your metal dagger and with 1 swift stab to the back of it's head, the deed is done. You cut off its tail and put it into a bag that you brought with you and must now go and finish the quest. Where do you go now?\n\n[[The Table->Fake Table 1]]\n[[The Twins->Twins]]\n[[The Red Rabbit->Fake Rabbit]] \n[[The Executioner->Fake Executioner]] ",
+        "links": [
+          {
+            "name": "The Table",
+            "link": "Fake Table 1",
+            "pid": "24"
+          },
+          {
+            "name": "The Twins",
+            "link": "Twins",
+            "pid": "25"
+          },
+          {
+            "name": "The Red Rabbit",
+            "link": "Fake Rabbit",
+            "pid": "20"
+          },
+          {
+            "name": "The Executioner",
+            "link": "Fake Executioner",
+            "pid": "21"
+          }
+        ],
+        "name": "Katze win",
+        "pid": "23",
+        "position": {
+          "x": "576",
+          "y": "1951"
+        }
+      },
+      {
+        "text": "You chose to make your way to the table, but only find it empty when you arrive. You do however read a note on the table that says \"Come back here when you are done.\" Maybe you should listen to the letter and get back to business. Where do you wish to go next?\n\n[[The Red Rabbit->Fake Rabbit]] \n[[The Twins->Twins]]\n[[The Executioner->Fake Executioner]]",
+        "links": [
+          {
+            "name": "The Red Rabbit",
+            "link": "Fake Rabbit",
+            "pid": "20"
+          },
+          {
+            "name": "The Twins",
+            "link": "Twins",
+            "pid": "25"
+          },
+          {
+            "name": "The Executioner",
+            "link": "Fake Executioner",
+            "pid": "21"
+          }
+        ],
+        "name": "Fake Table 1",
+        "pid": "24",
+        "position": {
+          "x": "800",
+          "y": "2000"
+        }
+      },
+      {
+        "text": "You were told to kill both of the twins and steal an eye from each of them, but when you got to where they were supposed to be, there was only one. The single twin saw you and immediately got scared and begged for his life. Apparently they are weak on their own and only have the strength to fight people when they combine forces. The single twin tried to scare you off by warning you that his brother would be back any second. Do you wish to wait and get the glory of defeating them both at the same time or would you rather take the opportunity of an easier fight?\n\n[[Fight them both->Twin Loss]]\n[[Fight them one at a time->Twin Win]]",
+        "links": [
+          {
+            "name": "Fight them both",
+            "link": "Twin Loss",
+            "pid": "26"
+          },
+          {
+            "name": "Fight them one at a time",
+            "link": "Twin Win",
+            "pid": "27"
+          }
+        ],
+        "name": "Twins",
+        "pid": "25",
+        "position": {
+          "x": "500",
+          "y": "2102"
+        }
+      },
+      {
+        "text": "You chose to call the twin on his bluff and wait for the other so that you can fight them both at the same time. But as soon as the second twin arrived, the first was filled with confidence. And together, they formed an immense feeling of bloodlust. They charged at you at the same time and got the btter of you. They ended up squishing you so much that everything went dark.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Twin Loss",
+        "pid": "26",
+        "position": {
+          "x": "425",
+          "y": "2252"
+        }
+      },
+      {
+        "text": "You decided to take this oppurtunity to your advantage and fought the sole twin first. It was quite an easy battle because of how scared he was. Soon after, the other twin came and shared the same fate as his brother. You then stole an eye from each of them and decided to go on your way. Where do you go?\n\n[[The table->Fake Table 2]]\n[[The Red Rabbit->Red Rabbit]]\n[[The Executioner->Fake Executioner]] ",
+        "links": [
+          {
+            "name": "The table",
+            "link": "Fake Table 2",
+            "pid": "28"
+          },
+          {
+            "name": "The Red Rabbit",
+            "link": "Red Rabbit",
+            "pid": "29"
+          },
+          {
+            "name": "The Executioner",
+            "link": "Fake Executioner",
+            "pid": "21"
+          }
+        ],
+        "name": "Twin Win",
+        "pid": "27",
+        "position": {
+          "x": "575",
+          "y": "2252"
+        }
+      },
+      {
+        "text": "You chose to make your way to the table, but only find it empty when you arrive. You do however read a note on the table that says \"Come back here when you are done.\" Maybe you should listen to the letter and get back to business. Where do you wish to go next?\n\n[[The Red Rabbit->Red Rabbit]] \n[[The Executioner->Fake Executioner]]",
+        "links": [
+          {
+            "name": "The Red Rabbit",
+            "link": "Red Rabbit",
+            "pid": "29"
+          },
+          {
+            "name": "The Executioner",
+            "link": "Fake Executioner",
+            "pid": "21"
+          }
+        ],
+        "name": "Fake Table 2",
+        "pid": "28",
+        "position": {
+          "x": "900",
+          "y": "2200"
+        }
+      },
+      {
+        "text": "You make your way to the Red Rabbit, who you soon realize is the White Rabbit but drenched in the blood of his enemies. When you get to him, he is on the ground breathing heavily. The reason seems to be that he just ended a frenzy of fighting enemies and is exhausted. Yet you still have the task from the soldiers to retrieve a little watch from the inside of his vest. Will you fight him in his current state, or let him replenish his energy?\n\n[[Fight him now->Rabbit Win]]\n[[Let him rest->Rabbit Loss]]",
+        "links": [
+          {
+            "name": "Fight him now",
+            "link": "Rabbit Win",
+            "pid": "30"
+          },
+          {
+            "name": "Let him rest",
+            "link": "Rabbit Loss",
+            "pid": "31"
+          }
+        ],
+        "name": "Red Rabbit",
+        "pid": "29",
+        "position": {
+          "x": "600",
+          "y": "2401"
+        }
+      },
+      {
+        "text": "You took the oppurtunity to strike while the red rabbit was weakened. He was so exhausted that he didn't put up much of a fight. He swung a giant clock on a long chain a few times in an attempt to hit you, but they were slow enough to dodge. After you defeated him, you grabbed the little clock from him as the soldiers requested. Where will you go now?\n\n[[The Table->Fake Table 3]]\n[[The Executioner->The Executioner]]",
+        "links": [
+          {
+            "name": "The Table",
+            "link": "Fake Table 3",
+            "pid": "32"
+          },
+          {
+            "name": "The Executioner",
+            "link": "The Executioner",
+            "pid": "33"
+          }
+        ],
+        "name": "Rabbit Win",
+        "pid": "30",
+        "position": {
+          "x": "699",
+          "y": "2540"
+        }
+      },
+      {
+        "text": "You chose to stay out of the Red Rabbits view until he replenished his energy in order to fight him at his full strength. Once he was rested, to charged right at him with your sword in your hand. What you didn't see was the giant clock attached to a long chain in his hand. A few seconds after he saw you, the world went dark.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Rabbit Loss",
+        "pid": "31",
+        "position": {
+          "x": "502",
+          "y": "2538"
+        }
+      },
+      {
+        "text": "You chose to make your way to the table, but only find it empty when you arrive. You do however read a note on the table that says \"Come back here when you are done.\" Maybe you should listen to the letter and get back to business. Where do you wish to go next?\n\n[[The Executioner->The Executioner]]",
+        "links": [
+          {
+            "name": "The Executioner",
+            "link": "The Executioner",
+            "pid": "33"
+          }
+        ],
+        "name": "Fake Table 3",
+        "pid": "32",
+        "position": {
+          "x": "901",
+          "y": "2499"
+        }
+      },
+      {
+        "text": "You were tasked by the soldiers to go to the Executioner's house and steal his hat. Once you get to his home, you quickly learn that it is the Mad Hatter from the movies. The only difference is that he is a lot more crazy. You can see the Executioner's hat through his window, but you can't see him. Do you wish to steal the hat while you can or wait until you see him?\n\n[[Steal it->Executioner win]]\n[[Wait->Executioner loss]]",
+        "links": [
+          {
+            "name": "Steal it",
+            "link": "Executioner win",
+            "pid": "35"
+          },
+          {
+            "name": "Wait",
+            "link": "Executioner loss",
+            "pid": "36"
+          }
+        ],
+        "name": "The Executioner",
+        "pid": "33",
+        "position": {
+          "x": "701",
+          "y": "2699"
+        }
+      },
+      {
+        "text": "Welcome to \"Allison Won The Land\". A text based adventure game by Caleb Dougherty\n\nThe rules are simple. Read through the story on the screen to learn what is happening and choose an answer to the question that the game asks you.\n\nMost times, you will see multiple choices on what you can do. Once you think about your next action, please type that action out as you see it. If you copy it down incorrectly (ie. not capitalizing something, misspelling, missing question mark, etc...) then you may be unable to progress further into the story.\n\nWhen you are ready, type \"Begin\".\n\n[[Begin->The Choice]]",
+        "links": [
+          {
+            "name": "Begin",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Intro",
+        "pid": "34",
+        "position": {
+          "x": "842",
+          "y": "323"
+        }
+      },
+      {
+        "text": "You decided to risk it and sneak into the house to steal the hat. As you make your way into the house, you learn that the Executioner isn't there. Since you don't know when he is going to get back, you quickly grab the hat and start making your way to the table without ever having to come into contact with the Executioner.\n\n[[Next->The Last Table]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "The Last Table",
+            "pid": "37"
+          }
+        ],
+        "name": "Executioner win",
+        "pid": "35",
+        "position": {
+          "x": "801",
+          "y": "2857"
+        }
+      },
+      {
+        "text": "You chose to hide behind a big rock and wait until you can see him before you try and get his hat. After several minutes, you hear a voice behind you saying that you shouldn't be there. Right after you hear that, the world goes dark.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Executioner loss",
+        "pid": "36",
+        "position": {
+          "x": "599",
+          "y": "2857"
+        }
+      },
+      {
+        "text": "You finally make your way back to the table with all the materials. The soldiers are there waiting for you with what looks to be a box of sewing tools. The soldiers finally explain that they had you get those materials so that they can stitch them all together to make a strange looking puppet.\n\n[[A puppet?->Puppet]]",
+        "links": [
+          {
+            "name": "A puppet?",
+            "link": "Puppet",
+            "pid": "38"
+          }
+        ],
+        "name": "The Last Table",
+        "pid": "37",
+        "position": {
+          "x": "1102",
+          "y": "2898"
+        }
+      },
+      {
+        "text": "The Soldiers explain that the Red Queen is to difficult to defeat with the amount of people the soldiers have. However, the Red Queen is apparently extremely terrified of dolls. You are a little sceptical, but you hand over the materials anyways. After a few minutes you see the the eyes were stitched onto the Katze's tail along with the little clock. Finally, they added the hat onto it's head to complete the look. All that's left is to storm the castle and hope the plan works.\n\n[[Next->Castle]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Castle",
+            "pid": "39"
+          }
+        ],
+        "name": "Puppet",
+        "pid": "38",
+        "position": {
+          "x": "901",
+          "y": "3001"
+        }
+      },
+      {
+        "text": "As you make your way to the castle, you run into several guards. Luckily, some of the soldiers stayed to fight them as you and the rest of the soldiers made your way through the castle. As you walk through the castle, you learn that many of the people in it are actually prisoners. After learning that, you vowed to yourself to defeat the Red Queen and free the prisoners.\n\n[[Next->Throne room]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Throne room",
+            "pid": "40"
+          }
+        ],
+        "name": "Castle",
+        "pid": "39",
+        "position": {
+          "x": "1104",
+          "y": "3099"
+        }
+      },
+      {
+        "text": "By the time you make it to the Red Queen's throne room, it is only you and 5 other soldiers as the rest are taking care of the guards throughout the castle. The Red Queen is extremely angry that you dare invade her castle and asks what you planned to accomplish. What will you do?\n\n[[Fight her->Red Queen loss]]\n[[Show her the doll->Red Queen win]]",
+        "links": [
+          {
+            "name": "Fight her",
+            "link": "Red Queen loss",
+            "pid": "41"
+          },
+          {
+            "name": "Show her the doll",
+            "link": "Red Queen win",
+            "pid": "42"
+          }
+        ],
+        "name": "Throne room",
+        "pid": "40",
+        "position": {
+          "x": "800",
+          "y": "3198"
+        }
+      },
+      {
+        "text": "You drew your sword and declared to the Red Queen that you were there to fight her. She immediately started laughing at you for thinking that you could possibly beat her. Nonetheless, she stood from her throne and drew her sword. You fought her for around 2 minutes before everything went dark.\n\n[[What happened?->The Choice]]",
+        "links": [
+          {
+            "name": "What happened?",
+            "link": "The Choice",
+            "pid": "1"
+          }
+        ],
+        "name": "Red Queen loss",
+        "pid": "41",
+        "position": {
+          "x": "601",
+          "y": "3299"
+        }
+      },
+      {
+        "text": "You stuck with the plan and pulled out the strange puppet from your bag and showed the Red Queen. It turns out that the soldiers were not lying and that she is terrified of puppets. One look at it made her scream hysterically and even jump out of a window in the throne room to escape it. Then she just disappears as if she was never there to begin with. \n\n[[Next->Victory]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Victory",
+            "pid": "43"
+          }
+        ],
+        "name": "Red Queen win",
+        "pid": "42",
+        "position": {
+          "x": "1001",
+          "y": "3297"
+        }
+      },
+      {
+        "text": "News of your victory spread through the castle like wildfire and the fighting between the soldiers and the guards stoppen. The prisoners were set free and everyone was happy that the Red Queen's reign on the land had ended, and it was all thanks to you.\n\n[[Next->Celebration]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Celebration",
+            "pid": "44"
+          }
+        ],
+        "name": "Victory",
+        "pid": "43",
+        "position": {
+          "x": "1302",
+          "y": "3298"
+        }
+      },
+      {
+        "text": "Everyone in the castle that you saved came rushing into the throne room to celebrate with you and cheer. They all eventually started chanting your name saying, \"Allison, Allison, Allison!\" As they do so, their voices become quieter and the world starts to fade to darkness around you. Then the light begins to come back, but that chanting has gone from many voices to two voices that are calling your name with a hint of worry to them.\n\n[[Next->Finale]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Finale",
+            "pid": "45"
+          }
+        ],
+        "name": "Celebration",
+        "pid": "44",
+        "position": {
+          "x": "1000",
+          "y": "3498"
+        }
+      },
+      {
+        "text": "You open your eyes from a strange yet extremely realistic dream, in the garden to the sound of your mother and father trying to wake you. It turns out, that you had watched way too many movies of tales of different worlds and was convinced that you could climb the garden wall in your yard in order to visit one of those strange worlds. Instead, all you did was fall backwards and hit your head, knocking you unconsious. Perhaps this may be a lesson that movies about other worlds aren't always safe to watch and become engulfed in.\n\n[[Next->Credits]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Credits",
+            "pid": "46"
+          }
+        ],
+        "name": "Finale",
+        "pid": "45",
+        "position": {
+          "x": "1200",
+          "y": "3498"
+        }
+      },
+      {
+        "text": "You have recieved the \"Bravery\" ending.\n\nThanks for playing! Feel free to quit now or explore other choices.\n\n[[Try again->Intro]] ",
+        "links": [
+          {
+            "name": "Try again",
+            "link": "Intro",
+            "pid": "34"
+          }
+        ],
+        "name": "Credits",
+        "pid": "46",
+        "position": {
+          "x": "801",
+          "y": "3701"
+        }
+      }
+    ],
+    "name": "Allison Won The Land (Pt2)",
+    "startnode": "34",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "AB770854-1F5B-456A-A840-CEE9743ED228"
+  }
